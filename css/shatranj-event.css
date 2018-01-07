@@ -44,7 +44,7 @@
   display: inline-block;
 }
 .navigation a {
-  color: rgba(255, 255, 255, 0.75);
+  color: #fff;
   font-size: 12px;
   font-weight: 400;
   margin-left: 40px;
@@ -52,7 +52,7 @@
   text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-  color: #fff;
+  color: #000;
 }
 .nav-toggle {
   display: none;
@@ -193,8 +193,7 @@
 
 
 .about p{
-  font-family: 'Nunito', sans-serif;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .container {
@@ -212,11 +211,10 @@ body {
   width: 100%;
   height: 100%;
   color: white;
-  font-size: 15px;
   background-color: black; }
 
 .banner {
-  background-image: url(../images/5.png);
+  background-image: url(../images/shatranj9.png);
   background-position: center top;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -235,11 +233,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #eee
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  margin: 0 0 35px;
-  letter-spacing: 2px;
+  font-weight: 600;
+  margin: 0 0 20px;
+  letter-spacing: 1px;
   text-transform: uppercase; }
 
 p {
@@ -248,7 +245,7 @@ p {
   margin: 0 0 25px; }
   @media (min-width: 768px) {
     p {
-      font-size: 20px;
+      font-size: 18px;
       line-height: 1.6;
       margin: 0 0 50px; } }
 
@@ -356,7 +353,6 @@ a {
     background: rgba(255, 255, 255, 0.1); }
 
 .content-section {
-  font-family: 'Nunito', sans-serif;
   padding-top: 150px;
   padding-bottom: 150px; }
 

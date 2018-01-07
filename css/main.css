@@ -331,7 +331,7 @@ ul li {
 	 Intro
 -------------------------------------------------------------------------------*/
 .intro {
-	padding-top: 60px;
+	padding-top: 50px;
 	background-color: #fff;
 	position: relative;
 }
@@ -345,7 +345,7 @@ ul li {
 .intro blockquote {
 	border: 0;
 	margin: 0;
-	padding: 25px 15% 0;
+	padding: 10px 15% 0;
 }
 .intro h1 {
 	color: #000;
@@ -354,7 +354,7 @@ ul li {
 .intro p {
 	color: #6c7279;
 	display: block;
-	font-size: 13px;
+	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
 	margin-top: 30px;
