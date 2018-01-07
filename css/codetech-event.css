@@ -202,11 +202,11 @@
   padding-bottom: 40px;
 }
 
-#about .container{
+/*#about .container{
   padding-left: 270px;
-}
+}*/
 
-body {
+ body {
   font-family: 'Nunito', sans-serif;
   position: relative;
   width: 100%;
