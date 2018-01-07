@@ -144,10 +144,10 @@ ul li {
 }
 .navigation a {
 	color: rgba(255, 255, 255, 0.75);
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	margin-left: 40px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
@@ -294,7 +294,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: url(../images/banner.jpg);
+	background-image: url(../images/banner.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -307,7 +307,7 @@ ul li {
 	opacity: 0.5;
 }
 .banner-text {
-	padding-top: 33%;
+	padding-top: 8%;
 }
 .banner-text h1 {
 	color: #fff;
@@ -331,13 +331,21 @@ ul li {
 	 Intro
 -------------------------------------------------------------------------------*/
 .intro {
-	background-color: #e9eaed;
+	padding-top: 60px;
+	background-color: #fff;
 	position: relative;
 }
+
+.intro img {
+	padding-left: 40px 15% 0;
+	width: 80%;
+	height: 100%; 
+}
+
 .intro blockquote {
 	border: 0;
 	margin: 0;
-	padding: 100px 15% 0;
+	padding: 25px 15% 0;
 }
 .intro h1 {
 	color: #000;
@@ -452,6 +460,14 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Teams
 -------------------------------------------------------------------------------*/
+.teams{
+	background-color: #1c1212;
+}
+
+.teams h2{
+	padding-bottom: 20px;
+}
+
 .person {
 	max-width: 270px;
 	text-align: center;

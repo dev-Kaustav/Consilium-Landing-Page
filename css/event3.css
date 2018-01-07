@@ -214,14 +214,14 @@ body {
   background-color: black; }
 
 .banner {
-  background-image: url(../images/1.png);
+  background-image: url(../images/2-.png);
   background-position: center top;
   background-repeat: no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 720px;
+  min-height: 750px;
 
 html {
   width: 100%;
@@ -267,7 +267,7 @@ a {
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
-    color: white;
+    color: black;
     border: 1px solid white; }
   #mainNav .navbar-brand {
     font-weight: 700; }
