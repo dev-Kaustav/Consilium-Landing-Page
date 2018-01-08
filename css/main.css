@@ -350,7 +350,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: url(../images/banner.png);
+	background-image: url(../images/bg3.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -679,21 +679,21 @@ ul li {
 	margin: 0 2px;
 }
 
-@media only screen and (max-width: 768px){
+/*@media only screen and (max-width: 768px){
 	.banner{
-		background-image: url(../images/banner.png);
+		background-image: url(../images/bg3.png);
 		background-position: center top;
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
+sun ? haan awaz aarhi h ?phone neeche pada hai wah mai nbol rha hun utha ek baar 
 
-
-}
+}*/
 
 @media only screen and (min-width: 768px){
     .intro img {
 	padding-left: 40px;
-    }
+    /*}*/
 }
 
 
