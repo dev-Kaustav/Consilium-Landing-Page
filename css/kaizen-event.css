@@ -1,3 +1,12 @@
+#about p{
+  font-size: 16px;
+}
+
+#about button{
+  font-family: font-family: 'Nunito', sans-serif;
+  background-color: #efae17;
+}
+
 /* ------------------------------------------------------------------------------
    Header
 -------------------------------------------------------------------------------*/
@@ -230,7 +239,7 @@ body {
 }
 .banner-text p {
   color: #8d8d8d;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 24px;

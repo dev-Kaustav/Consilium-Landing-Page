@@ -1,3 +1,18 @@
+#about .btn{
+  background-color: #a00601;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  border: 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
 /* ------------------------------------------------------------------------------
    Header
 -------------------------------------------------------------------------------*/
@@ -44,7 +59,7 @@
   display: inline-block;
 }
 .navigation a {
-  color: rgba(255, 255, 255, 0.75);
+  color: #000;
   font-size: 12px;
   font-weight: 400;
   margin-left: 40px;
@@ -52,7 +67,7 @@
   text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-  color: #fff;
+  color: #000;
 }
 .nav-toggle {
   display: none;
