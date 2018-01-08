@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$(window).on('scroll', function() {
 		var scroll = $(window).scrollTop();
 
-		if (scroll >= 100) {
+		if (scroll >= 200) {
 			$('#header').addClass('fixed');
 		} else {
 			$('#header').removeClass('fixed');
@@ -48,11 +48,53 @@ $(document).ready(function() {
 		$(this).toggleClass('close-nav');
 		nav.toggleClass('open');
 		return false;
-	});	
+	});
 	nav.find('a').on('click', function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
+
+
+	// slick slider
+	$('.slideshow-container').slick({
+	        // setting-name: setting-value
+	    slidesToShow: 5,
+		slidesToScroll: 5,
+		// mobileFirst:true,
+		arrows:false,
+		autoplay:true,
+		autoplaySpeed:2000,
+		responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+		// dots: true,
+		// centerMode: true,
+	 });
 
 	// Send e-mail
 	$(function () {
