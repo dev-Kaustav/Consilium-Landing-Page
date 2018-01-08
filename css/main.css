@@ -1,12 +1,54 @@
 /*CONTACT*/
 
-.contact{
-	background-color: #83a890;
+/*.contact{
+	background-color: #e59412;
 }
 
 .contact h3{
 	padding-bottom: 10px;
 	font-family: 'Nunito', sans-serif;
+}
+
+.contact placeholder{
+	font-family: 'Nunito', sans-serif;
+	font-size: 10px;
+}*/
+
+/*Font-awesome integration*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#contact{
+    background-color:#f1f1f1;
+    font-family: 'Nunito', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+    margin: 0 auto;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
 }
 
 /* ------------------------------------------------------------------------------
@@ -50,9 +92,10 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
 .btn {
-	background-color: #000;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	font-family: 'Nunito', sans-serif;
 	font-size: 13px;
 	font-weight: 600;
@@ -64,6 +107,7 @@ h5 {
 	display: inline-block;
 	text-transform: uppercase;
 }
+
 .btn:hover, .btn:focus {
 	background-color: #3d3d3d;
 	color: #fff;
@@ -131,7 +175,7 @@ ul li {
 	float: left;
 }
 #header.fixed {
-	background-color: #7f3b07;
+	background-color: #7a0901;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -155,7 +199,7 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: rgba(255, 255, 255, 0.75);
+	color: #fff;
 	font-size: 12px;
 	font-weight: 400;
 	margin-left: 40px;
@@ -343,13 +387,14 @@ ul li {
 	 Intro
 -------------------------------------------------------------------------------*/
 .intro {
-	padding-top: 50px;
+	padding-top: 14px;
+	padding-bottom: 32px;
 	background-color: #fff;
 	position: relative;
 }
 
 .intro img {
-	padding-left: 40px 15% 0;
+	padding-top: 42px;
 	width: 80%;
 	height: 100%; 
 }
@@ -357,7 +402,7 @@ ul li {
 .intro blockquote {
 	border: 0;
 	margin: 0;
-	padding: 10px 15% 0;
+	padding: 0px 15% 0;
 }
 .intro h1 {
 	color: #000;
@@ -371,14 +416,32 @@ ul li {
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 /* ------------------------------------------------------------------------------
 	 Services
 -------------------------------------------------------------------------------*/
-.service-section {
-	padding-top: 50px;
+.services-container{
+	background-color: #000;
 }
+
+.service-section {
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.service-section h1{
+	font-size: 40px;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+}
+
+.service-section h5{
+	font-size: 25px;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+}
+
 .services {
 	margin-bottom: 50px;
 }
@@ -388,7 +451,7 @@ ul li {
 }
 .services .icon {
 	color: #e84545;
-	font-size: 36px;
+	font-size: 35px;
 	padding-left: 15px;
 }
 /* ------------------------------------------------------------------------------
@@ -475,7 +538,7 @@ ul li {
 	 Teams
 -------------------------------------------------------------------------------*/
 .teams{
-	background-color: #33221a;
+	background-color: #fff;
 }
 
 .teams h2{
@@ -483,7 +546,7 @@ ul li {
 }
 
 .person {
-	max-width: 270px;
+	max-width: 220px;
 	text-align: center;
 }
 .person-content {
@@ -496,7 +559,7 @@ ul li {
 	color: #000;
 	font-size: 13px;
 	font-weight: 400;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .social-icons, .footer .footer-share {
 	margin-top: 30px;
@@ -615,3 +678,22 @@ ul li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+
+@media only screen and (max-width: 768px){
+	.banner{
+		background-image: url(../images/banner.png);
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px){
+    .intro img {
+	padding-left: 40px;
+    }
+}
+
+
