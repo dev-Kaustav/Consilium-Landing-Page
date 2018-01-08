@@ -44,20 +44,20 @@
     margin-bottom:30px;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     #contact iframe {
         margin-bottom: 15px;
     }
-    
+
 }
 
 /* ------------------------------------------------------------------------------
 	Template Name: Flosix
 	Author: Designstub
 	Author URI: http://www.designstub.com
-	
-	
-	
+
+
+
 /* ------------------------------------------------------------------------------
 	Typography
 -------------------------------------------------------------------------------*/
@@ -396,7 +396,7 @@ ul li {
 .intro img {
 	padding-top: 42px;
 	width: 80%;
-	height: 100%; 
+	height: 100%;
 }
 
 .intro blockquote {
@@ -686,7 +686,7 @@ ul li {
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
-sun ? haan awaz aarhi h ?phone neeche pada hai wah mai nbol rha hun utha ek baar 
+sun ? haan awaz aarhi h ?phone neeche pada hai wah mai nbol rha hun utha ek baar
 
 }*/
 
@@ -695,5 +695,3 @@ sun ? haan awaz aarhi h ?phone neeche pada hai wah mai nbol rha hun utha ek baar
 	padding-left: 40px;
     /*}*/
 }
-
-
