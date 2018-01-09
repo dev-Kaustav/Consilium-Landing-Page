@@ -1,16 +1,17 @@
 body{
-	background-color: #fdd835;
+	background-color: #000;
 }
 
 .panel > .panel-heading {
     background-image: none;
-    background-color: #082c66;
+    background-color: #7a0901;
     font-family: 'Nunito', sans-serif;
     color: white;
 }
 
 #total{
 	font-size: 15px;
+	color: white;
 	font-family: 'Nunito', sans-serif;
 }
 
@@ -29,8 +30,8 @@ body{
 }
 
 #total button {
-	background-color: #000;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	font-family: 'Nunito', sans-serif;
 	font-size: 13px;
 	font-weight: 600;
