@@ -1,0 +1,93 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>ConsiliumApp</title>
+  <link rel="stylesheet" media="all" href="/assets/application-379a47cfe1bbc2176cdc8853f98845ab643e6f0c58ade317032df0f37e878c31.css" data-turbolinks-track="true" />
+  <script src="/assets/application-aa197f905fe780aa12503fc0acb8fed35b6fa36f4bed7bd7c7407812cd5da8e7.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="uFQYO3SEv9N4o78JVnYGlcnHKc5KFQzcCDaEd+HrMmpMuq/IHvQuOwVOBXMWTMb6d03SMJXDC5op6tjDGX+V/w==" />
+</head>
+<body> -->
+ 
+ 
+ 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/signin.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+<body style="background-color: #f4d835">
+
+<div class="panel panel-default devise-bs">
+  <div class="panel-heading">
+    <h4 align="center">Sign Up</h4>
+  </div>
+
+<section id="total">
+<div class="col-md-6 col-md-offset-3">
+  <div class="panel-body">
+    <form role="form" class="new_user" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IDJ3coOW9qQkYGF7qZpWtMTfv3Ug/erQTXIHyyL6KL/U3MCB6eZnTFmN2wHpoJbbelVEi/8r7ZZsrlt/2m6PKg==" />
+
+
+     <div class="form-group">
+        <label for="user_Name">Name</label>
+        <input autofocus="autofocus" class="form-control" type="text" name="user[name]" id="user_name" />
+      </div>
+
+
+      <div class="form-group">
+        <label for="user_College_name">College Name</label>
+        <input autofocus="autofocus" class="form-control" type="text" name="user[collegename]" id="user_collegename" />
+      </div>
+
+      <div class="form-group">
+        <label for="user_Phone">Phone</label>
+        <input autofocus="autofocus" class="form-control" type="text" name="user[phone]" id="user_phone" />
+      </div>
+
+      <div class="form-group">
+        <label for="user_email">Email</label>
+        <input autofocus="autofocus" class="form-control" type="email" value="" name="user[email]" id="user_email" />
+      </div>
+
+      <div class="form-group">
+        <label for="user_password">Password</label>
+        <input class="form-control" type="password" name="user[password]" id="user_password" />
+      </div>
+
+      <input value="false" type="hidden" name="user[inteam]" id="user_inteam" />
+
+      <div class="form-group">
+        <label for="user_password_confirmation">Password Confirmation</label>
+        <input class="form-control" type="password" name="user[password_confirmation]" id="user_password_confirmation" />
+      </div>
+      
+      <button  onclick="window.location.href='/users/sign_up'" class="btn btn-primary center-block">Sign Up</button><br>
+
+      <h4 align="center">Already have an account?</h4>
+      <button  onclick="window.location.href='/users/sign_up'" class="btn btn-primary center-block">Login</button>
+
+</form>  
+</div>
+</div>
+</div>
+</section>
+
+ <!-- <a href="/users/sign_in"></a><br /> -->
+
+<!-- <button type="button" class="btn btn-danger" onclick="window.location.href='/users/sign_in'">Login</button> -->
+
+
+</body>
+</html>
+
+
+</body>
+</html>

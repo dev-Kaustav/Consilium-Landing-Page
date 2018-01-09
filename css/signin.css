@@ -1,0 +1,60 @@
+body{
+	background-color: #fdd835;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #082c66;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+#total{
+	font-size: 15px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#total h2{
+	font-size: 17px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#total h4{
+	font-size: 17px;
+}
+
+#total h1{
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#total button {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	border: 0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: center-block;
+}
+
+.button:hover, .button:focus {
+	background-color: #3d3d3d;
+	color: #fff;
+}
+
+#total butu{
+	background-color: #000;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	border: 0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: center-block;
+}
