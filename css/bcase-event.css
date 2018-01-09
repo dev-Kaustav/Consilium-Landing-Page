@@ -9,7 +9,7 @@
 #header .header-content {
   margin: 0 auto;
   max-width: 1170px;
-  padding: 60px 0;
+  padding: 30px 0;
   width: 100%;
   -moz-transition: padding 0.3s;
   -o-transition: padding 0.3s;
@@ -212,6 +212,7 @@ body {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+
   min-height: 750px;
 }
 .banner-btn {
@@ -257,4 +258,7 @@ body {
   color: #e84545;
   font-size: 36px;
   padding-left: 15px;
+}
+.main-heading p{
+    font-family:'Kelson Sans Bold',serif;
 }

@@ -64,6 +64,8 @@ $(document).ready(function() {
 		arrows:false,
 		autoplay:true,
 		autoplaySpeed:2000,
+		dots:true,
+		infinite:false,
 		responsive: [
     {
       breakpoint: 1024,
