@@ -220,7 +220,7 @@ body {
   background-color: black; }
 
 .banner {
-  background-image: url(../images/4.jpg);
+  background-image: url(../images/4.png);
   background-position: center top;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -254,6 +254,11 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width:508px){
+    .banner{
+        background-image:url(../images/ccc-phone.png);
+    }
+}
 
 /* ------------------------------------------------------------------------------
    Services
