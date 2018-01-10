@@ -80,6 +80,9 @@ img {vertical-align: middle;}
     font-size:30px;
     /* width:40%; */
 }
+#about>.container>.row>.col-lg-12>button:hover{
+    background-color:white !important;
+}
 .active, .dot:hover {
   /* background-color: #71717    1; */
 }
