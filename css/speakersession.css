@@ -244,9 +244,10 @@ body {
    Services
 -------------------------------------------------------------------------------*/
 .service-section {
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .services {
+    height:530px;
   margin-bottom: 50px;
 }
 .services-content {
@@ -261,5 +262,10 @@ body {
 @media (max-width:700px) {
     .main-heading{
         font-size:50px;
+    }
+}
+@media (max-width:993px) {
+    .services-container container{
+        height:
     }
 }
