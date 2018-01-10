@@ -123,7 +123,7 @@ img {vertical-align: middle;}
     text-align: center;
     padding: 10px;
     border:2px solid transparent;
-    height:400px;
+    height:320px;
 }
 
 .services:hover{
@@ -181,16 +181,21 @@ img {vertical-align: middle;}
     padding: 5px;
 }
 .main-heading{
-    height:100vh;
-    color:black;
+    /* height:100vh; */
+    font-family:'Kelson Sans Bold';
+    color:white;
     font-size:50px;
     position: relative;
     top:50%;
     padding-top:90px;
     text-align:center;
+    font-size:100px;
     /* left:50%; */
     /* transform: translate(-50%,-50%); */
 }
 .haha{
     display:none;
+}
+a:hover{
+    text-decoration: none;
 }

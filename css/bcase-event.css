@@ -262,3 +262,6 @@ body {
 .main-heading p{
     font-family:'Kelson Sans Bold',serif;
 }
+.fixed ul li a{
+    color:white;
+}

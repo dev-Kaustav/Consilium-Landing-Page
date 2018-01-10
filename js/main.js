@@ -64,7 +64,7 @@ $(document).ready(function() {
 		arrows:false,
 		autoplay:true,
 		autoplaySpeed:2000,
-		dots:true,
+		// dots:true,
 		infinite:false,
 		responsive: [
     {
@@ -73,7 +73,7 @@ $(document).ready(function() {
         slidesToShow: 5,
         slidesToScroll: 5,
         infinite: true,
-        dots: true
+        // dots: true
       }
     },
     {
